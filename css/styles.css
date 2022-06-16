@@ -202,13 +202,15 @@ span {
 }
 
 @media screen and (max-width: 1300px) {
+  .title-img-container {
+    left: 15%;
+  }
   .big-heading,
   .cta-heading {
     font-size: 3rem;
   }
   .title-img {
     right: initial;
-    left: 0;
     transform: rotate(0);
     width: 60%;
   }
@@ -218,20 +220,12 @@ span {
   #title {
     text-align: center;
   }
-  .navbar-brand {
-    font-size: 3rem;
-  }
   .nav-link {
     text-align: left;
-    font-size: 2rem;
-  }
-  .navbar-toggler-icon {
-    width: 4em;
-    height: 4em;
   }
   .big-heading,
   .cta-heading {
-    font-size: 5.5rem;
+    font-size: 2.5rem;
   }
   .title-img {
     position: relative;
@@ -243,18 +237,9 @@ span {
     width: 80px;
   }
   .testimonial-text {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   #pricing h2 {
     font-size: 2.5rem;
-  }
-  .feature-box h3 {
-    font-size: 4rem;
-  }
-  .feature-box p {
-    font-size: 2.2rem;
-  }
-  .testimonial-text {
-    font-size: 4rem;
   }
 }
