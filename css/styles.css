@@ -1,243 +1,245 @@
-#title{
-    background-image: linear-gradient(to right, #ff4c68,#FF655B);
-    color: white;
-    text-align: left;
+#title {
+  background-image: linear-gradient(to right, #ff4c68, #ff655b);
+  color: white;
+  text-align: left;
 }
-.tinder-icon{
-    width:35px;
+.tinder-icon {
+  width: 35px;
 }
 
-.container-fluid{
-    padding: 3% 15% 7%;
+.container-fluid {
+  padding: 3% 10% 7% 10%;
 }
-body{
-    font-family: "Montserrat";
-    text-align: center;
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 /* Headings */
 
-h1{
-    font-weight: 900;
+h1 {
+  font-weight: 900;
 }
 
-h2{
-    font-weight: 800;
-    font-size: 3rem;
-    line-height: 1.5;
+h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-h3{
-    font-weight: 800;
-    font-size: 2rem;
-}
-p{
-    color: #afafaf;
-    font-weight: 600;
+h3 {
+  font-weight: 800;
+  font-size: 2rem;
 }
 
-.big-heading{
-    font-size: 3.5rem;
-    line-height: 1.7;
+p,
+span {
+  font-size: 16px;
+  color: #afafaf;
+  font-weight: 600;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.7;
 }
 
 /* Navigation Bar */
 
-.navbar{
-    padding-bottom: 4.5rem;
+.navbar {
+  padding-bottom: 4.5rem;
 }
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
-.nav-item{
-    padding: 0 18px;
-    font-size: 1.2rem;
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
 
 /* Download button */
-.download-btn{
-    margin: 5% 3% 5% 0;
+.download-btn {
+  margin: 5% 3% 5% 0;
 }
 
 /* Title image */
 .title-img {
-    position: absolute;
-    right: 30%;
-    transform: rotate(25deg);
-    width: 55%;
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 55%;
 }
 
-.title-img-container{
-    position: relative;
+.title-img-container {
+  position: relative;
 }
-
 
 /* Features */
-#features{
-    padding: 7% 15%;
-    background-color: white;
-    position: relative;
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
-.feature-box{
-    padding: 3.5%;
+.feature-box {
+  padding: 3.5%;
 }
 
-.feature-box p{
-    font-size: 1.2rem
+.feature-box p {
+  font-size: 1.2rem;
 }
 
-.feature{
-    padding: 0.5rem 7%;
+.feature {
+  padding: 0.5rem 7%;
 }
 
-.icon{
-    color: #FF655B;
-    margin-bottom: 1rem;
+.icon {
+  color: #ff655b;
+  margin-bottom: 1rem;
 }
-.icon:hover{
-    color: #ff4c68
+.icon:hover {
+  color: #ff4c68;
 }
 
 /* Testimonials */
 
 #testimonials {
-    color: #fff;
-    background-color: #FF655B;
+  color: #fff;
+  background-color: #ff655b;
 }
 
-.testimonial-img{
-    border-radius: 100%;
-    width: 10%;
-    margin: 20px;
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
 }
 
-#press{
-    background-color: #FF655B;
-    padding: 3% 10%;
+#press {
+  background-color: #ff655b;
+  padding: 3% 10%;
 }
 
-.press-logo{
-    width: 230px;
-    margin: 30px 10px ;
-    filter: drop-shadow(0 0 0.8rem #ffebe9);}
+.press-logo {
+  width: 230px;
+  margin: 30px 10px;
+  filter: drop-shadow(0 0 0.8rem #ffebe9);
+}
 
-.carousel-item{
-    padding: 7% 15%;
+.carousel-item {
+  padding: 7% 15%;
 }
 
 /* Pricing */
 
-.card{
-    margin: auto 15px;
+.card {
+  margin: auto 15px;
 }
-.card-header>h3{
-    margin: 8px auto;
-}
-
-.plan-text{
-    font-size: 20px;
+.card-header > h3 {
+  margin: 8px auto;
 }
 
-#pricing{
-    padding: 100px 50px;
+.plan-text {
+  font-size: 20px;
 }
 
-.pricing-col{
-    padding: 3% 2%;
+#pricing {
+  padding: 100px 50px;
 }
 
-.price-btn{
-    font-weight: 600;
+.pricing-col {
+  padding: 3% 2%;
 }
 
-.card-body > p{
-    font-size: 20px;
-    line-height: 1.7;
+.price-btn {
+  font-weight: 600;
 }
 
+.card-body > p {
+  font-size: 20px;
+  line-height: 1.7;
+}
 
 /* Call to action */
 
-#cta{
-    background-image: linear-gradient(to right, #ff4c68,#FF655B);
-    padding: 5% 15% 2.5%;
-    color: white;
+#cta {
+  background-image: linear-gradient(to right, #ff4c68, #ff655b);
+  padding: 5% 15% 2.5%;
+  color: white;
 }
 
-#cta > button{
-    margin-right: 20px;
+#cta > button {
+  margin-right: 20px;
 }
-.cta-heading{
-    font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5
-    
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
-
 
 /* Footer */
 
-#footer{
-    padding: 3%;
+#footer {
+  padding: 3%;
 }
-.social-icon{
-    margin: 20px 10px;
-}
-
-.credit{
-    text-decoration: none;
-    color: #5f5f5f;
-    font-weight: 700;
-}
-.credit:hover{
-    color: #ff4c68;
+.social-icon {
+  margin: 20px 10px;
 }
 
-
-
-@media screen and (max-width: 1300px){
-    .title-img-container{
-        left: 15%;
-    }
-    .big-heading, .cta-heading{
-        font-size: 3rem
-    }
-    .title-img {
-        right: initial;
-        transform: rotate(0);
-        width: 60%;
-    }
+.credit {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-weight: 700;
+}
+.credit:hover {
+  color: #ff4c68;
 }
 
-@media screen and (max-width: 992px){
-    #title{
-        text-align: center;
-    }
-    .nav-link{
-        text-align: left;
-    }
-    .big-heading, .cta-heading{
-        font-size: 2.5rem;
-    }
-    .title-img {
-        position:relative;
-        transform: rotate(0);
-        width: 60%;
-        right: 17.5%;
-    }
-    .testimonial-img{
-        width: 80px;
-    }
-    .testimonial-text{
-        font-size: 2.5rem;
-    }
-    #pricing h2{
-        font-size: 2.5rem;
-    }
+@media screen and (max-width: 1300px) {
+  .title-img-container {
+    left: 15%;
+  }
+  .big-heading,
+  .cta-heading {
+    font-size: 3rem;
+  }
+  .title-img {
+    right: initial;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .nav-link {
+    text-align: left;
+  }
+  .big-heading,
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+  .title-img {
+    position: relative;
+    transform: rotate(0);
+    width: 60%;
+    right: 17.5%;
+  }
+  .testimonial-img {
+    width: 80px;
+  }
+  .testimonial-text {
+    font-size: 2.5rem;
+  }
+  #pricing h2 {
+    font-size: 2.5rem;
+  }
 }
